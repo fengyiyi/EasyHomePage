@@ -407,18 +407,18 @@ content: |
 
 ## 本地预览
 
-如果你会使用命令行，可以在本地预览。
+如果你会使用命令行，可以在本地预览。本项目使用 [pnpm](https://pnpm.io/) 作为包管理器（如未安装可运行 `npm install -g pnpm`）。
 
 第一次运行：
 
 ```bash
-npm install
+pnpm install
 ```
 
 启动预览：
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 然后打开终端里显示的网址，通常是：
@@ -430,7 +430,7 @@ http://localhost:18772
 构建正式版本：
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 构建产物会生成在 `docs` 目录。
